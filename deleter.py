@@ -8,9 +8,9 @@ try:
 except:
     pass
 
-D42_USER = 'username'
-D42_PWD = 'p@ass'
-D42_URL = 'https://fqdn'
+D42_USER = 'd42support'
+D42_PWD = 'nC54@gAU^cnJs89'
+D42_URL = 'https://fis-nsp-d42.dynecon.com'
 DATA_STR = D42_USER + ':' + D42_PWD
 DATA_BYTES = DATA_STR.encode("utf-8")
 AUTH_STR = base64.b64encode(DATA_BYTES)
